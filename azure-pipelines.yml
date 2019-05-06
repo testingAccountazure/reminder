@@ -10,7 +10,7 @@ steps:
   - task: GitHubRelease@0
     displayName: ‘Create GitHub Release’
     inputs:
-      gitHubConnection: $(teo)
+      gitHubConnection: testingAccountazure
       repositoryName: testingAccountazure/reminder
       action: edit
       tag: 1.14.0
