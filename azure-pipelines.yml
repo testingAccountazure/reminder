@@ -53,5 +53,5 @@ jobs:
         inputs:
           gitHubConnection: $(teo)
           repositoryName: testingAccountazure/reminder
-          action: create
+          action: edit
           tag: 1.14.0
