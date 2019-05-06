@@ -51,7 +51,7 @@ jobs:
       - task: GitHubRelease@0
         displayName: ‘Create GitHub Release’
         inputs:
-          gitHubConnection: testingAccountazure
+          gitHubConnection: $(teo)
           repositoryName: testingAccountazure/reminder
           action: create
           tag: 1.14.0
